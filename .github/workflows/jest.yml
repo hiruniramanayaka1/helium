@@ -1,6 +1,7 @@
 name: Run Test Suite
 
 on:
+  workflow_dispatch:
   push:
     branches: [staging]
   pull_request:
